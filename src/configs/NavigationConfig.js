@@ -11,6 +11,7 @@ import {
     SettingOutlined,
     MobileOutlined,
     FileTextOutlined,
+    ScheduleOutlined,
 } from "@ant-design/icons";
 import { APP_PREFIX_PATH } from "configs/AppConfig";
 
@@ -34,7 +35,7 @@ const dashBoardNavTree = [
                 key: "sidenav.main.scheduler",
                 path: `${APP_PREFIX_PATH}/scheduler`,
                 title: "sidenav.main.scheduler",
-                icon: DashboardOutlined,
+                icon: ScheduleOutlined,
                 breadcrumb: false,
                 submenu: [],
             },
